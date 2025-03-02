@@ -5,7 +5,7 @@ import { UserService } from '../users/user.service';
 import { compare } from 'bcryptjs';
 import { ConfigService } from '@nestjs/config';
 import ms from 'ms';
-import { TokenPayload } from './toke-payload.interface';
+import { TokenPayload } from './token-payload.interface';
 import { JwtService } from '@nestjs/jwt';
 
 @Injectable()
